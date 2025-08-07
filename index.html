@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+    <div class = "taskContainer">
+       <h1 id = "taskHeading"></h1>
+       <ol id = "itemContainer">
+             <!-- <li>  </li> -->
+       </ol>
+    </div>
+
+    <div id = "notificationBanner"> 
+        <p> Task Saved Successfully! </p>
+        <div class="progress-bar"></div>
+    </div>
+    
+
+    <div id = "inputContainer">
+        <input type = "text" id = "taskinput" placeholder = "Enter Your Task here!" maxlength="20">
+        <input type = "button" value = "+" class = "Button">
+    </div>
+
+
+
+    <div id = "errorMessage">
+        <p> Please Enter a Task first! </p>
+    </div>
+    
+    
+    
+    <script src="script.js"></script>
+
+
+</body>
+</html>

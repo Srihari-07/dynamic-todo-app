@@ -1,0 +1,219 @@
+body{
+  background: #5E6B66
+
+}
+#inputContainer{
+    position: relative;
+    top: 470px;
+    margin-left :  574px;
+}
+
+#noTaskMessage{
+    color: white;
+    position: relative;
+    display: inline-block;
+    left: 373px;
+    top: 127px;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0.5;
+}
+#taskHeading{
+    text-align: center;
+    color  : rgb(255, 255, 255);
+    margin-top :  72px;
+    font-size: 60px;
+    font-family: system-ui;
+    display: inline;
+    position: relative;
+    left: 418px;
+}
+li::marker{
+  list-style-position: inside; 
+}
+.tasks{
+  list-style-position: inside;
+  text-decoration: none;
+  opacity: 1;
+  width: 576px;
+  height: 172px;
+  position: relative;
+  left: 471px;
+  top: 20px;
+  font-size: 30px;
+  color: white;
+  font-family: system-ui;
+}
+.taskName{
+  margin-left: 9px;
+}
+
+.taskDescription{
+    position: relative;
+    left: 38px;
+    top: 17px;
+    resize: horizontal;
+    border: 3px solid orange;
+    border-radius: 7px;
+    padding: 10px;
+    font-family: system-ui;
+    font-size: 15px;
+    color: white;
+    background-color:#c329b729;
+    width: 295px;
+    height: 60px;
+}
+.taskDescription:focus{
+    border: 3px dashed orange;
+    outline: none;
+}
+.taskDescription::placeholder {
+  color : white;
+  opacity: 0.5;
+
+}
+
+
+.checkBox{
+  position: relative;
+  left: 74px;
+  bottom: 69px;
+  transform: scale(2.2);
+}
+
+
+#taskinput {
+    padding: 9px 23px;
+    font-size: 19px;
+    width: 432px;
+    border-radius: 17px;
+    border: 3px solid #ff9900;
+    position: relative;
+    right: 71px;
+    font-family : system-ui;    
+}
+#taskinput:focus {
+  outline: none; /* Removes the default outline */
+  border: 5px solid rgb(105, 93, 93);
+}
+
+#saveButton{
+  background-color: #f9ecdd;
+  border: 2px solid #ff9900;
+  border-radius: 30px;
+  box-shadow: rgb(5, 5, 5) 4px 4px 0 0;
+  color: #241816;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+#saveButton:hover{
+  background-color: #fff;
+}
+
+.Button{
+  background-color: #f9ecdd;
+  border: 2px solid #ff9900;
+  border-radius: 23px;
+  box-shadow: rgb(0, 0, 0) 4px 4px 0 0;
+  color: #241816;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.Button:hover {
+  background-color: #fff;
+}
+
+.Button:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .Button {
+        min-width: 120px;
+        padding: 0 25px;
+        position: relative;
+        top: 61px;
+        right: 347px;
+  }
+}
+
+
+#errorMessage{
+    visibility: hidden;
+    display: inline-block;
+    position: relative;
+    left: 603px;
+    top: 332px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#saveMessage{
+  display: inline-block;
+  position: relative;
+  top: 44px;
+  left: 25px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#notificationBanner{
+  display: inline-block;
+  position: absolute;
+  top: 102px;
+  right: 23px;
+    background-color: #28a731;
+    font-family: system-ui;
+    color: white;
+    padding: 0px 26px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px #40423f;
+    width: 169px;
+    margin: 20px auto;
+    transform: translateX(10%);
+    opacity: 0;  /* It's being hidden because of opacity is 0 */
+    pointer-events: none;
+   /* visibility: hidden; */
+    transition: transform 0.5s ease, opacity 0.5s ease; /* Because of this the Slide out animation is possible. Thanks to transition property of CSS*/
+}
+#notificationBanner.show{
+  transform: translateX(0%);
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
+.hidden {
+  visibility: hidden;
+  pointer-events: none;
+}
+.progress-bar {
+  height: 4px;
+  background-color: orange;
+  width: 100%;
+  animation: progressAnimation 3s linear forwards;
+  border-radius: 0 0 8px 8px;
+}
+@keyframes progressAnimation {
+  from { width: 100%; }
+  to { width: 0%; }
+}
