@@ -8,9 +8,9 @@ Click here to try the app 👉 (https://Srihari-07.github.io/dynamic-todo-app/)
 
 
 ## Screenshots : 
-![Opening Screen of the Application](./screenshots/openingScreen.png)
+![Opening Screen of the Application](./screenshots/openingScreen.PNG)
 
-![Start of the Application](./screenshots/WorkingApplication.png)
+![Start of the Application](./screenshots/WorkingApplication.PNG)
 
 
 ## ✨ Features : 
