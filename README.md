@@ -21,15 +21,15 @@ Click here to try the app 👉 (https://Srihari-07.github.io/dynamic-todo-app/)
 - 💾 Saves tasks in browser local storage (persistent even after refresh)
 
 
-## 🛠 Tech Stack
-- **HTML5** — Structure
-- **CSS3** — Styling
-- **JavaScript (ES6)** — Logic & Interactivity
-- **Local Storage API** — Data persistence
+## 🛠 Tech Stack :
+- **HTML5** -> Structure
+- **CSS3** -> Styling
+- **JavaScript (ES6)** —> Logic & Interactivity
+- **Local Storage API** —> Data persistence
 
 
 
-## 📚 What I Learned
+## 📚 What I Learned :
 While building this project, I learned:
 - How to manipulate the DOM dynamically with JavaScript
 - How to approach bugs and solve them
