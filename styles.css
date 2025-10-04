@@ -1,5 +1,5 @@
 body{
-  background: #32443d
+  background: #353535;
 
 }
 #inputContainer{
@@ -9,7 +9,7 @@ body{
 }
 
 #noTaskMessage{
-    color: white;
+    color: #D9D9D9;
     position: relative;
     display: inline-block;
     left: 373px;
@@ -20,7 +20,7 @@ body{
 }
 #taskHeading{
     text-align: center;
-    color  : rgb(255, 255, 255);
+    color: #D9D9D9;
     margin-top :  72px;
     font-size: 60px;
     font-family: system-ui;
@@ -41,7 +41,7 @@ li::marker{
   left: 471px;
   top: 20px;
   font-size: 30px;
-  color: white;
+  color: #D9D9D9;
   font-family: system-ui;
 }
 .taskName{
@@ -58,7 +58,7 @@ li::marker{
     padding: 10px;
     font-family: system-ui;
     font-size: 15px;
-    color: white;
+    color: #D9D9D9;
     background-color:#c329b729;
     width: 295px;
     height: 60px;
@@ -102,7 +102,7 @@ li::marker{
   border: 2px solid #ff9900;
   border-radius: 30px;
   box-shadow: rgb(5, 5, 5) 4px 4px 0 0;
-  color: #241816;
+  color: #D9D9D9;
   cursor: pointer;
   display: inline-block;
   font-weight: 600;
@@ -124,7 +124,7 @@ li::marker{
   border: 2px solid #ff9900;
   border-radius: 23px;
   box-shadow: rgb(0, 0, 0) 4px 4px 0 0;
-  color: #241816;
+  color: #D9D9D9;
   cursor: pointer;
   display: inline-block;
   font-weight: 600;
@@ -173,7 +173,7 @@ li::marker{
   position: relative;
   top: 44px;
   left: 25px;
-  color: rgb(255, 255, 255);
+  color: #D9D9D9;
   font-size: 16px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -184,7 +184,7 @@ li::marker{
   right: 23px;
     background-color: #28a731;
     font-family: system-ui;
-    color: white;
+    color: #D9D9D9;
     padding: 0px 26px;
     border-radius: 8px;
     box-shadow: 0 4px 12px #40423f;
